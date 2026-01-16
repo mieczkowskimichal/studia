@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './Hello.js'
-import HelloWithProps from './Hello.js'
+
+import { Hello, HelloWithProps } from './Hello';
+import Counter from './Counter.js';
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,9 @@ function App() {
 <HelloWithProps name="Anna" /> 
 <HelloWithProps name="Bartek" /> 
 <HelloWithProps name="Celina" /> 
+
+<Counter></Counter>
+
 </div>
 
       </header>
