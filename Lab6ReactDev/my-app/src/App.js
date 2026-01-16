@@ -9,7 +9,10 @@ return (
 <div> 
 <Hello /> 
 <ToggleDetails/>
-<ScoreDisplay/>
+<h2>Ćwiczenie 2: ScoreDisplay</h2> 
+<ScoreDisplay score={45} /> 
+<ScoreDisplay score={65} />
+ <ScoreDisplay score={90} />
 <TaskList/>
 <UserList/>
 <TimerCounter/>
